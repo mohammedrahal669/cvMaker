@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="main-navbar">
+    <ul class="CVlogo">
+      <li><img alt="logo" src="images/logo.svg"></li>
+      <li><a>CVMaker</a></li>
+    </ul>
+    <ul class="navRightSide">
+        <li class="login"><img alt="login" src="images/loginLock.svg"><a>Login / Signup</a></li>
+      </ul>
+  </nav>
+
+<div class="homeContainer">
+<img alt="background" src="images/HomePageImage.png">
+<div class="homeContent">
+<h1>Create your professional Resume with CV maker</h1>
+<p>Create your very own professional Resume and download it within 15 minutes.</p>
+<button class="createBtn">Create</button>
+</div>
+</div>
+
+
+<div class=" loginformMainContainer">
+    <div class="logincontainer">
+        <h1>Login <br><br> Please Enter your credentials</h1>
+        <div class="loginForm">
+            <img alt=" " src="images/privacy.svg">
+            <div class="user">
+                <img src="images/user.svg">
+                <input type="email" placeholder="Mohammad@rahalmail.com">
+            </div>
+            <div class="password">
+                <img src="images/loginLock.svg">
+                <input type="password" placeholder="***********">
+            </div>
+            
+            <a class="forgotpassword">forgot password</a>
+
+            <div class="loginButton">
+            <button class="loginBtn" type="submit">login</button></div>
+        </div>
+    </div>
+</div></body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".CVlogo").click(function(){
+    $('.homeContainer').css('display','block');
+    $('.loginformMainContainer').css('display','none');
+  });
+  $(".login").click(function(){
+    $('.homeContainer').css('display','none');
+    $('.loginformMainContainer').css('display','block');
+  });
+});
+</script>
+</html>

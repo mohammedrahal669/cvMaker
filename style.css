@@ -1,0 +1,161 @@
+body {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  }
+  #main-navbar {
+    font: 1.15em;
+    background: #FFFFFF;
+    height: 60px;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+  #main-navbar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block; 
+    height: 100%;
+  } 
+  #main-navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+    vertical-align: middle;
+    border-left: 0.5px solid #EDEDED;
+  }
+  #main-navbar li:nth-child(1) {
+    padding: 10px 0 10px 20px !important;
+    
+  } 
+  #main-navbar ul:nth-child(2) li:nth-child(1) {
+    padding: 19px 0 20px 20px !important;  
+  } 
+  #main-navbar ul:nth-child(2) li:nth-child(1) a {
+    vertical-align: top;
+    margin:0 25px 0  7px;
+}
+
+  #main-navbar li:nth-child(2) {
+    padding: 10px 20px 10px 0 !important;
+    border-left: 0 !important;
+  }
+  #main-navbar li:nth-child(2) a {
+         color: #E8505B; 
+  }
+   #main-navbar li a {
+    text-decoration: none;
+    color: #555555;
+  }
+  #main-navbar li a:hover {
+    padding-bottom: 3px;
+    color: #E8505B;
+  }
+
+.navRightSide{
+ float: right;
+}
+
+.homeContainer{
+    height: 100%;
+    padding: 1.4rem;
+}
+.homeContainer img{
+float: left;
+}
+.homeContent{
+    text-align: center;
+    padding:6rem 3.5rem 0 0;
+    width:500px;
+    float: right;
+}
+.homeContent h1,.homeContent p{
+    color: #555555;
+    margin: 3rem 0 0 0;
+}
+.homeContent .createBtn{
+width: 138px;
+height: 47px;
+background: #E8505B;
+box-shadow: 0px 3px 6px #00000029;
+border: 3px solid #E8505B;
+border-radius: 8px;
+color:#FFFFFF;
+font-size: large;
+margin: 3rem 0 0 0;
+}
+.homeContent .createBtn:hover{
+color: #E8505B;
+
+background: #F5F5F5 ;
+}
+
+
+/*loginForm*/
+.loginformMainContainer{
+    height: calc(100% - 110px);
+    padding: 3rem 0 0;
+    display: none;
+    text-align: center;
+}
+
+.logincontainer h1{
+font-weight:bold;
+font-size:24px !important ;
+color: #555555; 
+
+}
+
+.loginForm {
+    width: 410px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    margin:1.5rem auto;
+    padding: 2rem;
+}
+
+.logincontainer .loginForm .user,
+.logincontainer .loginForm .password{
+height: 46px;
+background: #F7F7F7;
+margin: 2rem 0 0;
+}
+.logincontainer .loginForm .user input,
+.logincontainer .loginForm .password input{
+height:100%;
+width:80%;
+background: #F7F7F7;
+outline:0;
+border: 0;
+padding: 0 1rem;
+}
+.logincontainer .loginForm a{
+    margin: 1rem 0 0;
+}
+.logincontainer .loginForm a.forgotpassword{
+text-decoration: underline;
+font-size:13px;
+color: #606060;
+margin: .5rem 0 0;
+float: right;
+}
+.loginButton{
+    clear: right;
+    padding:1.75rem 0 0 0 !important;
+    text-align: center;
+}
+.loginBtn{
+width: 138px;
+height: 47px;
+background: #E8505B;
+box-shadow: 0px 3px 6px #00000029;
+border: 3px solid #E8505B;
+border-radius: 8px;
+font-size:20px;
+color: #FFFFFF;
+}
+.loginBtn:hover{
+color: #E8505B;
+background-color: #FFFFFF;
+}
+
